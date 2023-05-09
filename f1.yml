@@ -4,4 +4,7 @@
   tasks:
     - name: print
       shell: echo "this is file 1"
+      register: output 
+    - debug:
+        var: output
 
