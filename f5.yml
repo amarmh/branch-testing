@@ -3,3 +3,6 @@
   tasks:
     - name: print
       shell: echo "this is file 1 from branch 5"
+      register: otp
+     - debug:
+         var: otp
