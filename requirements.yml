@@ -1,5 +1,3 @@
 ---
 collections:
-  - name: ssh://tfs.group.euroclear.com:22/tfs/TFS_EUROCLEAR/EOC_ANSIBLE_COLLECTIONS/_git/eoc.windows
-    type: git
-    version: progress
+  - name: galaxy.aws
