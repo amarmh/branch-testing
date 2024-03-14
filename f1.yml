@@ -1,11 +1,11 @@
 ---
-- name: f1 file
+- name: F1 file
   hosts: all
   tasks:
-    - name: print
-      shell: echo "this is file 1"
-      register: output 
-    - debug:
+    - name: Print
+      ansible.builtin.command: echo "this is file 1"
+      register: output
+    - ansible.builtin.debug:
         var: output
 #commit1
 #commit2
