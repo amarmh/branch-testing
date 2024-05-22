@@ -4,3 +4,6 @@ collections:
   - name: amazon.aws
   - name: ansible.controller
   #- name: community.general
+  - name: ansible-controller
+    src: https://github.com/amarmh/branch-testing/blob/main/ansible-controller-latest.tar.gz
+    version: main
