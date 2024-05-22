@@ -5,5 +5,6 @@ collections:
   - name: ansible.controller
   #- name: community.general
   - name: ansible-controller
-    src: https://github.com/amarmh/branch-testing/blob/main/ansible-controller-latest.tar.gz
+  # src: https://github.com/amarmh/branch-testing/blob/main/ansible-controller-latest.tar.gz
+    src: git+https://github.com/amarmh/branch-testing.git
     version: main
